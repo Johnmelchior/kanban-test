@@ -1,0 +1,24 @@
+.talent_center{
+	display: flex;
+	overflow: auto;
+	.columns {
+		display: flex;
+		column-gap: 20px;
+		padding: 20px;
+		.lanes{
+			width: 400px;
+			> .title{
+				background: #fff;
+				border: 1px solid #dadada;
+				border-left: 3px solid green;
+				font-size: 14px;
+				line-height: 20px;
+				margin-bottom: 20px;
+				height: 40px;
+				padding: 5px;
+				border-radius: 3px;
+
+			}
+		}
+	}
+}
